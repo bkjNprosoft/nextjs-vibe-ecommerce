@@ -1,0 +1,44 @@
+{
+  "name": "next-ecommerce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "prisma": {
+    "seed": "node prisma/seed.mjs"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "@tanstack/react-query": "^5.85.5",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^15.5.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
+    "@types/sqlite3": "^3.1.11",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.33.0",
+    "eslint-config-next": "^15.5.0",
+    "postcss": "^8.5.6",
+    "prisma": "^6.14.0",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.9.2"
+  }
+}
