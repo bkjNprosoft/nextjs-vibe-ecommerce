@@ -1,4 +1,5 @@
 {
+  "packageManager": "pnpm@10.15.0",
   "name": "next-ecommerce",
   "version": "1.0.0",
   "main": "index.js",
